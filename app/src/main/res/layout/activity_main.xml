@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="345dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="24dp"
+        android:background="#75BCBC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/btnCmp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="comprimi"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649"
+        app:rippleColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnDwn"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#20CD27"
+        android:hint="download"
+        android:text=" "
+        app:icon="@android:drawable/stat_sys_download"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.776"
+        app:rippleColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnImp"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#2196F3"
+        android:hint="upload"
+        android:text=" "
+        android:visibility="visible"
+        app:icon="@android:drawable/stat_sys_upload"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:iconSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/btnTrash"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#E61B0C"
+        android:text="d"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconPadding="1dp"
+        app:iconSize="40dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778"
+        app:rippleColor="#B53333" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
